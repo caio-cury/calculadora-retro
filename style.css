@@ -21,13 +21,14 @@ body {
 .tela {
     background-color: rgb(180, 161, 161);
     height: 100px;
+    width: 400px;
     margin-bottom: 40px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 5rem;
     font-family: 'Digital retro', sans-serif;
-
+    overflow: hidden;
     border-radius: 10px;
     border-top: 3px solid rgb(0, 0, 0, 0.7);
     border-left: 3px solid rgb(0, 0, 0, 0.7);
@@ -36,7 +37,7 @@ body {
 }
 
 .calculadora {
-    background-color: black;
+    background-color: rgb(27, 25, 25);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 20px 15px 15px rgb(0, 0, 0, 0.75);
